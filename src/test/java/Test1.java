@@ -22,7 +22,7 @@ public class Test1 {
         System.out.println("Third test skipped");
     }
 
-    @Test
+    /** @Test
     void fourthTest() {
         System.out.println("Fourth test failure");
         assertEquals(2, 3);
@@ -41,5 +41,5 @@ public class Test1 {
     @Test
     void seventhTest() {
         throw new IllegalArgumentException("Seventh test error");
-    }
+    } */
 }
