@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class Test1 {
     @Test
     void firstTest() {
-        System.out.println("First test run);
+        System.out.println("First test run");
     }
 
     @Test
